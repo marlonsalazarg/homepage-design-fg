@@ -42,3 +42,33 @@
   font-weight: 700;
   font-size: 35px;
 }
+
+/* MENU */
+.menu{
+  flex-grow: 1;
+  flex-basis: 30%;
+  height: 100%;
+  padding-right: 20px;
+}
+
+.menu > ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  height: 100%;
+}
+
+.menu a{
+  text-transform: uppercase;
+  color: #444;
+  padding: 15px;
+  transition: all 300ms;
+}
+
+.menu a:hover{
+  background-color: #ccc;
+  color: white;
+}
